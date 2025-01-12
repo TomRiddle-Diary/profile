@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-top: 5px;
+    color: blue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #e9ecef;
+    border-bottom: 1px solid #ccc;
+}
+
+nav .myprofile,
+nav .activity {
+    flex: 1;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ccc;
+}
+
+.profile, .career, .research, .hobby, .book, .goal, .comment {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.profile .name h2,
+.career h2,
+.research h2,
+.hobby h2,
+.book h2,
+.goal h2,
+.comment h2{
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.profile .name h2 {
+    font-weight: bold;
+}
+
+.career ul, .research ul, .hobby ul, .book ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.career ul li, .research ul li, .hobby ul li, .book li {
+    margin-bottom: 5px;
+}
+
+.hobby p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.title, .contents, .picture1, .picture2, .progress, .contact {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.title h1 {
+    text-align: center;
+    font-family: serif;
+    font-size: 2rem;
+    color: #333;
+}
+
+.title h2 {
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.contents h2, .picture1 h2, .picture2 h2, .progress h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contents p, .progress p, .contact p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.picture1 img, .picture2 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.contact p {
+    text-align: center;
+    font-style: italic;
+}

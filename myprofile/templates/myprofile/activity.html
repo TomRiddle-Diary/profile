@@ -1,0 +1,39 @@
+{% extends 'myprofile/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="title">
+        <h1>Auto Portofolio with U.S indivisual stock</h1>
+        <h2>Make investing easy</h2>
+    </div>
+
+    <div class="contents">
+        <h2>内容: </h2>
+        <p>企業の最新のデータをAPIを使って取得し、そのデータをもとに自動でポートフォリオを作成する。<br>
+           "CAPM"と"ファンダメンタル分析"を計算に使用している。</p>
+    </div>
+
+    <div class="picture1">
+        <h2>出力結果: </h2>
+        <img src="{% static 'images/picture1.png' %}" alt="result"
+            width="800" height="450">
+    </div>
+
+    <div class="picture2">
+        <h2>"yahoo finance"でシミュレーション</h2>
+        <img src="{% static 'images/picture2.png' %}" alt="simulation"
+            width="800" height="600">
+    </div>
+
+    <div class="progress">
+        <h2>進捗状況: </h2>
+        <p>バックエンドは完成済み、フロントエンド完成を目指している。<br>
+            専門家の人に意見をもらい、より現実的なものにしていく</p>
+    </div>
+
+    <div class="contact">
+        <p>もし興味あったら気軽に声かけてください<br>
+            email: BB123021@sun.ac.jp</p>
+    </div>
+
+{% endblock %}

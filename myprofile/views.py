@@ -1,3 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
+def home(request):
+    return render(request, 'myprofile/home.html')
+
+def activity(request):
+    return render(request, 'myprofile/activity.html')
